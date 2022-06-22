@@ -7,7 +7,49 @@
 }
 
 /* Buttons */
+
 button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: var(--green);
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  color: white;
+}
+
+button {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+button:hover{
+  background-color: #2fbf2f;
+  background-image: radial-gradient(circle,transparent 1%,#2eb92e 1%);
+  background-position: center;
+  background-size: 15000%;
+}
+
+button:active{
+  transition: background 0s;
+  background-color: #26b026;
+  background-size: 100%;
+}
+
+.discord-invite-btn { background-color: #7289da }
+
+.discord-invite-btn:hover { 
+  background-color: #5865F2;
+  background-image: radial-gradient(circle,transparent 1%,#5865F2 1%);
+}
+
+.discord-invite-btn:active { background-color: #404EED }
+
+/* Buttons v2
+ button {
   font-family: 'Yantramanav', sans-serif;
   display: inline-grid;
   place-items: center;
@@ -54,8 +96,7 @@ button::before {
     opacity: 0;
   }
 }
-
-.discord-invite-btn { color: #7289da }
+*/
 
 /* Buttons v1
 button {
