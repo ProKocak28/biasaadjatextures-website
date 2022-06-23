@@ -35,7 +35,7 @@ button:hover{
 
 button:active{
   transition: background 0s;
-  background-color: #26b026;
+  background-color: #1fa01f;
   background-size: 100%;
 }
 
