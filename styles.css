@@ -312,6 +312,10 @@ input[type="checkbox"]{
   background: transparent;
 }
 
+.modal-body--items {
+  text-align: center;
+}
+
 /* normal things */
 body {
   margin: 0;
