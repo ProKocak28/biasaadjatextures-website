@@ -346,7 +346,7 @@ h1 {
 }
 
 p {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: x-large;
 }
 
@@ -362,7 +362,7 @@ p {
 }
 
 a {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: var(--white);
   text-decoration: none;
   font-size: x-large;
@@ -555,4 +555,4 @@ li { font-size: x-large; }
 
 .dl-links { color: var(--blue); }
 
-li { font-family: 'Yantramanav', sans-serif;}
+li { font-family: 'Rubik', sans-serif; }
