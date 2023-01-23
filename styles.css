@@ -55,6 +55,7 @@ button:active {
 
 .diamondclient-download-button {
     background-color: rgb(107, 246, 231, 0.9);
+    color: var(--black);
 }
 
 .diamondclient-download-button:hover {
@@ -62,7 +63,8 @@ button:active {
 }
 
 .diamondclient-download-button:active {
-    background-color: rgb(107, 246, 231);
+    background-color: rgb(107, 246, 231, 1);
+    background-image: radial-gradient(circle, transparent 1%, rgb(107, 246, 231, 1) 1%);
 }
 
 
