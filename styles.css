@@ -26,7 +26,7 @@ button {
 
 button {
     background-position: center;
-    transition: 0.3s ease-in-out, background 0.8s ;
+    transition: 0.3s ease-in-out, background 0.8s;
 }
 
 button:hover {
@@ -412,6 +412,10 @@ p {
 .main__description {
     font-size: xx-large;
     width: 50%;
+}
+
+.about__main__description {
+    font-size: xx-large;
 }
 
 a {
